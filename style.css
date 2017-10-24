@@ -1,0 +1,217 @@
+body {
+  background: #D2D5DA;
+  color: black;
+  display: flex;
+  flex-direction: column-reverse;
+  font-family: 'Droid Sans', sans-serif;
+  margin: 3% 3% 3% 3%;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin: 0 auto;
+}
+
+.image {
+  display: inline-block;
+  position: relative;
+  width: 39%;
+}
+
+img {
+  width: 20em;
+}
+
+article {
+  height: 10em;
+  width: 10em;
+}
+
+h1 {
+  font-size: 1.35em;
+  margin: 2% 0% 2% 3%;
+}
+
+p {
+  font-size: .95em;
+  margin: 0% 2% 1% 3%;
+  text-align: justify;
+}
+
+.bio-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.button-icons {
+  width: 1em;
+  margin: 2% 11% 0% 0%;
+}
+
+h3 {
+  border: solid;
+  font-size: .75em;
+  margin: 2% 0% 0% 3%;
+  padding: 2% 0% 2% 3%;
+  width: 7em;
+}
+
+h2 {
+  font-size: .75em;
+  text-align: center;
+}
+
+.bio {
+  background: #BAD3B1;
+  width: 20em;
+  display: flex;
+  flex-direction: column;
+}
+
+.icons {
+  width: 4em;
+  margin: 25% 0% 0% 30%;
+}
+
+.profile {
+  background: #717384;
+}
+
+.experience {
+  background: #7FBC83;
+}
+
+.education {
+  background: #676D78;
+}
+
+.language {
+  background: #BAD3B1;
+}
+
+.passion {
+  background: #212E71;
+}
+
+.references {
+  background: #7FBC83;
+}
+
+.franknpetz {
+  background: #212E71;
+}
+
+@media (min-width: 500px){
+
+  img {
+    width: 28em;
+  }
+
+  article {
+    height: 14em;
+    width: 14em;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1.25em;
+  }
+
+  .button-icons {
+    width: 1.2em;
+    margin: 1% 8% 0% 3%;
+  }
+
+  h3 {
+    font-size: 1em;
+    padding: 2% 0% 2% 3%;
+    width: 8em;
+  }
+
+  h2 {
+    font-size: 1em;
+  }
+
+  .bio {
+    width: 28em;
+  }
+
+  .icons {
+  width: 5em;
+  margin: 25% 0% 0% 32%;
+}
+
+}
+
+@media (min-width: 700px) {
+  img {
+    width: 42em;
+  }
+}
+
+@media screen and (min-width: 850px) {
+
+  body {
+    display: flex;
+    flex-direction: row;
+    margin: 1% 6% 0% 0%;
+  }
+
+  img {
+    width: 35.7em;
+  }
+
+  article {
+    height: 15em;
+    width: 15em;
+  }
+
+  h1 {
+    font-size: 1.5em;
+    margin: 11% 0% 5% 7%;
+  }
+
+  p {
+    font-size: .85em;
+    margin: 0% 9% 0% 7%;
+  }
+
+  .button-icons {
+    width: 1.2em;
+    margin: 1% 8% 0% 3%;
+  }
+
+  h2 {
+    font-size: .75em;
+  }
+
+  h3 {
+    font-size: .65em;
+    margin: 6% 0% 0% 7%;
+    padding: 2% 0% 2% 3%;
+    width: 7em;
+  }
+
+  .bio {
+    width: 30em;
+  }
+  
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0% 0% 0% 1%;
+    position: relative;
+    width: 60%;
+}
+
+  .icons {
+    margin: 29% 0% 0% 37%;
+    width: 4em;
+  }
+
+}
